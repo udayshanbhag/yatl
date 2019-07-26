@@ -1,0 +1,14 @@
+C:\HSOP\experiments\yatl\todoapi\bin\Debug\netcoreapp2.1\todoapi.deps.json
+C:\HSOP\experiments\yatl\todoapi\bin\Debug\netcoreapp2.1\todoapi.runtimeconfig.json
+C:\HSOP\experiments\yatl\todoapi\bin\Debug\netcoreapp2.1\todoapi.runtimeconfig.dev.json
+C:\HSOP\experiments\yatl\todoapi\bin\Debug\netcoreapp2.1\todoapi.dll
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.csprojAssemblyReference.cache
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.csproj.CoreCompileInputs.cache
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.RazorAssemblyInfo.cache
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.RazorAssemblyInfo.cs
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.AssemblyInfoInputs.cache
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.AssemblyInfo.cs
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.RazorTargetAssemblyInfo.cache
+C:\HSOP\experiments\yatl\todoapi\bin\Debug\netcoreapp2.1\todoapi.pdb
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.dll
+C:\HSOP\experiments\yatl\todoapi\obj\Debug\netcoreapp2.1\todoapi.pdb
