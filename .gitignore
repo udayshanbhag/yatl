@@ -1,0 +1,5 @@
+﻿/todoapi/bin/*
+/todoapi/obj/*
+*.dll
+*.pdb
+/todoapi/.vs/*
