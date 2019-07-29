@@ -42,6 +42,7 @@ namespace todoapi
 
             app.UseHttpsRedirection();
             app.UseMvc();
+             
         }
     }
 }

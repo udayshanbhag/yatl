@@ -16,4 +16,5 @@ RUN dotnet publish "todoapi.csproj" -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
+ENV ASPNETCORE_URLS http://*:80
 ENTRYPOINT ["dotnet", "todoapi.dll"]
