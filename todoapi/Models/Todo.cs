@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace todoapi.Models
 {    
@@ -9,7 +11,12 @@ namespace todoapi.Models
 /// 
 /// </summary>
     public class Todo
-    {        
+    {
+
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)] 
+        public string Id { get; set; }        
+
         /// <summary>
         /// Gets or sets the name.
         /// </summary>
@@ -48,7 +55,7 @@ namespace todoapi.Models
         /// <value>
         /// The created by.
         /// </value>
-        public User CreatedBy { get; set; }
+        //public User CreatedBy { get; set; }
 
     }
 }

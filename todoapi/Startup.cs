@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using todoapi.Models;
+using todoapi.Repository;
 
 namespace todoapi
 {
@@ -25,6 +27,11 @@ namespace todoapi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var logging = Configuration.GetSection(nameof(Microsoft.Extensions.Logging));
+            var xx = Configuration.GetSection(nameof(TodoDatabaseSettings));
+            services.Configure<TodoDatabaseSettings>(xx);
+            services.AddSingleton<ITodoDatabaseSettings>(sp => sp.GetRequiredService<IOptions<TodoDatabaseSettings>>().Value);
+            services.AddSingleton<TodoRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -40,7 +47,7 @@ namespace todoapi
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+//            app.UseHttpsRedirection();
             app.UseMvc();
              
         }
